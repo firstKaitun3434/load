@@ -1,1 +1,5 @@
-print("Script Success")
+if _G.GuiForScript then
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/firstKaitun3434/load/refs/heads/main/CheckGuiCoppyandScript'),true))()
+else
+    print("Script")
+end
